@@ -1,4 +1,4 @@
-/*! elementor - v2.7.5 - 28-10-2019 */
+/*! elementor - v2.7.4 - 06-10-2019 */
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -16718,7 +16718,7 @@ function (_elementorModules$com) {
     key: "defaultShortcuts",
     value: function defaultShortcuts() {
       return {
-        open: {
+        show: {
           keys: 'ctrl+shift+l'
         }
       };
@@ -23169,7 +23169,7 @@ PanelMenuPageView = Marionette.CompositeView.extend({
     });
     this.addItem({
       name: 'finder',
-      icon: 'eicon-search-bold',
+      icon: 'eicon-search',
       title: elementorCommon.translate('finder', 'finder'),
       callback: function callback() {
         return $e.route('finder');
